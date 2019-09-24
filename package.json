@@ -1,0 +1,19 @@
+{
+  "name": "maws",
+  "version": "0.0.1",
+  "description": "Marc's AWS client",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjpa7145/maws.git"
+  },
+  "author": "Marc Huffnagle <marc@element84.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yjpa7145/maws/issues"
+  },
+  "homepage": "https://github.com/yjpa7145/maws#readme"
+}
