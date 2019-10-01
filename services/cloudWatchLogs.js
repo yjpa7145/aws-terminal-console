@@ -22,7 +22,7 @@ const deleteLogGroup = async () => {
 };
 
 const listLogGroups = async () => {
-  const filter = await prompt({ message: 'Filter' });
+  const filter = await prompt({ message: 'Search filter'});
 
   let response = { nextToken: null };
   let names = [];

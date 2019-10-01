@@ -7,7 +7,7 @@ const { prompt, sortByName, thread } = require('../utils');
 const lambda = () => new AWS.Lambda();
 
 const listFunctions = async () => {
-  const filter = await prompt({ message: 'Filter' });
+  const filter = await prompt({ message: 'Search filter'});
 
   let response = { NextMarker: null };
   let names = [];

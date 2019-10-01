@@ -41,7 +41,7 @@ const deleteBucket = async () => {
 };
 
 const listBuckets = async () => {
-  const filter = await prompt({ message: 'Filter' });
+  const filter = await prompt({ message: 'Search filter'});
 
   const { Buckets } = await s3().listBuckets().promise();
 

@@ -27,7 +27,7 @@ const getTableNames = async () => {
 };
 
 const listTables = async () => {
-  const filter = await prompt({ message: 'Filter' });
+  const filter = await prompt({ message: 'Search filter'});
 
   const names = await getTableNames();
 

@@ -78,7 +78,7 @@ const deleteDomain = async () => {
 };
 
 const listDomains = async () => {
-  const filter = await prompt({ message: 'Filter' });
+  const filter = await prompt({ message: 'Search filter'});
 
   const domainNames = await getDomainNames();
 

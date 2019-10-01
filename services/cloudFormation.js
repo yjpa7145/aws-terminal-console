@@ -89,7 +89,7 @@ const deleteStacks = async () => {
 };
 
 const listStacks = async () => {
-  const nameFilter = await prompt({ message: 'Filter' });
+  const nameFilter = await prompt({ message: 'Search filter'});
 
   console.log();
   thread(
@@ -165,7 +165,7 @@ module.exports = async () => {
     { name: 'Delete stacks', value: deleteStacks },
     { name: 'Get stack events', value: getStackEvents },
     { name: 'Get stack status', value: getStackStatus },
-    { name: 'List stack', value: listStacks },
+    { name: 'List stacks', value: listStacks },
     { name: 'List stack resources', value: listStackResources }
   ];
 
