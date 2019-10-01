@@ -4,7 +4,7 @@
   "description": "AWS Terminal Console",
   "main": "index.js",
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && nyc ava"
   },
   "bin": {
     "atc": "./index.js"
