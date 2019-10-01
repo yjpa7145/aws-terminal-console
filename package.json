@@ -1,19 +1,29 @@
 {
-  "name": "maws",
+  "name": "aws-terminal-console",
   "version": "0.0.1",
-  "description": "Marc's AWS client",
+  "description": "AWS terminal console",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "true"
+  },
+  "bin": {
+    "atc": "./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yjpa7145/maws.git"
+    "url": "git+https://github.com/yjpa7145/aws-terminal-console.git"
   },
   "author": "Marc Huffnagle <marc@element84.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yjpa7145/maws/issues"
+    "url": "https://github.com/yjpa7145/aws-terminal-console/issues"
   },
-  "homepage": "https://github.com/yjpa7145/maws#readme"
+  "homepage": "https://github.com/yjpa7145/aws-terminal-console#readme",
+  "dependencies": {
+    "aws-sdk": "^2.534.0",
+    "inquirer": "^7.0.0",
+    "p-map": "^3.0.0",
+    "p-wait-for": "^3.1.0",
+    "ramda": "^0.26.1"
+  }
 }
