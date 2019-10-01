@@ -1,7 +1,7 @@
 {
   "name": "aws-terminal-console",
-  "version": "0.0.2",
-  "description": "AWS terminal console",
+  "version": "0.0.3",
+  "description": "AWS Terminal Console",
   "main": "index.js",
   "scripts": {
     "test": "true"
@@ -25,5 +25,15 @@
     "p-map": "^3.0.0",
     "p-wait-for": "^3.1.0",
     "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "husky": "^3.0.7",
+    "precise-commits": "^1.0.2",
+    "prettier": "1.18.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "precise-commits"
+    }
   }
 }
